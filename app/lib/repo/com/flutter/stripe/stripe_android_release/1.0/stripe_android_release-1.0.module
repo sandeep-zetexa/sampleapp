@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.flutter.stripe",
+    "module": "stripe_android_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe_android_release-1.0.aar",
+          "url": "stripe_android_release-1.0.aar",
+          "size": 416277,
+          "sha512": "2ef95a71d153a58366e99a7c71e126c183a3dcc4b12602c62dac11e5ca70c10add3f0578d74876b5187f49ad6dcadc8a47d05dd5a1339ce3b897718e7aae6973",
+          "sha256": "8bdb187743ff964f74ca963468aa14a85ef18a84b53b61b899d63310a1498e42",
+          "sha1": "290db1556355a3dc98db4a4dbdef3a33f90ef64b",
+          "md5": "e6e63ebe4ef88a9f155bbbd0c68d28cd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "21.6.+"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "financial-connections",
+          "version": {
+            "requires": "21.6.+"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stripe_android_release-1.0.aar",
+          "url": "stripe_android_release-1.0.aar",
+          "size": 416277,
+          "sha512": "2ef95a71d153a58366e99a7c71e126c183a3dcc4b12602c62dac11e5ca70c10add3f0578d74876b5187f49ad6dcadc8a47d05dd5a1339ce3b897718e7aae6973",
+          "sha256": "8bdb187743ff964f74ca963468aa14a85ef18a84b53b61b899d63310a1498e42",
+          "sha1": "290db1556355a3dc98db4a4dbdef3a33f90ef64b",
+          "md5": "e6e63ebe4ef88a9f155bbbd0c68d28cd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stripe_android_release-1.0-sources.jar",
+          "url": "stripe_android_release-1.0-sources.jar",
+          "size": 112309,
+          "sha512": "c431962aff0cfa7d2fbe8e6a5592169acbfc0a2304d5623631df1f54dfcb4a0cf7a0d3012cf1c3497a72bf8a86fb4476c78b553d54caae138a0eb75ca3fb399c",
+          "sha256": "edb05a97043ea033612dceea8bfe0655af0db27809f21d7ee25fbd1185de89e7",
+          "sha1": "56ff9f3145b6a2941ee258812b50f60e07278ba6",
+          "md5": "6751746175b607818ad1d35289bd0916"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stripe_android_release-1.0-javadoc.jar",
+          "url": "stripe_android_release-1.0-javadoc.jar",
+          "size": 896351,
+          "sha512": "6342e1598401aece2d31653008614cb55ce41e53b79b94672bd1df0f9baca170f93fece041302437584ce408cca396d793394189b5beef478964965a5f8ee8ff",
+          "sha256": "307f0ee05bff2965e287f561f5f03606e48c311b748b17bec2e92c25c2f23885",
+          "sha1": "1cb4f3a5559d9388b2d82bf9ce1570cd45ccb4a8",
+          "md5": "5f0bc592dae19bc1b2fb5cc11a3990a5"
+        }
+      ]
+    }
+  ]
+}

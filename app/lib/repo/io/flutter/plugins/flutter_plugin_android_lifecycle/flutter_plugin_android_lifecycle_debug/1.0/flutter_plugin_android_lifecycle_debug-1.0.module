@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+    "module": "flutter_plugin_android_lifecycle_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_plugin_android_lifecycle_debug-1.0.aar",
+          "url": "flutter_plugin_android_lifecycle_debug-1.0.aar",
+          "size": 2526,
+          "sha512": "564d91556e831e173e35292e6e6b007d76222497c149c28fad8322659f203d44b7b5402329782f18510ecb925ff4bef576189ea0a631931c4e2a132e4d408bdf",
+          "sha256": "3ca62ec5f7b4e892233dfc520def0ee27fed2258d4f5842b184c5c44f80f67f7",
+          "sha1": "264e31a42122a29e0c4ed3a243e88c798b47a1fb",
+          "md5": "bc67e8e0bc147f4dbe49d6f00c31a420"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_plugin_android_lifecycle_debug-1.0.aar",
+          "url": "flutter_plugin_android_lifecycle_debug-1.0.aar",
+          "size": 2526,
+          "sha512": "564d91556e831e173e35292e6e6b007d76222497c149c28fad8322659f203d44b7b5402329782f18510ecb925ff4bef576189ea0a631931c4e2a132e4d408bdf",
+          "sha256": "3ca62ec5f7b4e892233dfc520def0ee27fed2258d4f5842b184c5c44f80f67f7",
+          "sha1": "264e31a42122a29e0c4ed3a243e88c798b47a1fb",
+          "md5": "bc67e8e0bc147f4dbe49d6f00c31a420"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_plugin_android_lifecycle_debug-1.0-sources.jar",
+          "url": "flutter_plugin_android_lifecycle_debug-1.0-sources.jar",
+          "size": 2659,
+          "sha512": "d848b9ac3a80bd88694f7d35de2abc2866f65393d53caa1f49513063e17fe497a4b7e1ed09dc3736f529a166f1491dfb78c703a51f0fe0950082488869f2b352",
+          "sha256": "2930f0a83f74dc7a57026b471c4443a3e5cb4f8b5f80bf45d161dd31675194c7",
+          "sha1": "82b1c36d1af62197547e6c132ae64f520e3ad7a7",
+          "md5": "fb7b3ee0458fe0f3ec0a8116c68f72ed"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_plugin_android_lifecycle_debug-1.0-javadoc.jar",
+          "url": "flutter_plugin_android_lifecycle_debug-1.0-javadoc.jar",
+          "size": 269824,
+          "sha512": "605d70f3aadf20a81faf2d66b92228404a35593deaea4db210bc60fc23bedef640a748b2b75946de1a161788f66780ec5eb134a651272b6f0c8b7677d9f5b0d9",
+          "sha256": "91c513402a3eae0a149c75b64ff8e580c8e90e560a99e7f5583f4f2489c76f6d",
+          "sha1": "cc432994050df65ba1efe849e243797e8953cc71",
+          "md5": "37fd5147acc1eb36961d7172612f2c44"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.razorpay.razorpay_flutter",
+    "module": "razorpay_flutter_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "com.razorpay",
+          "module": "checkout",
+          "version": {
+            "requires": "1.6.+"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "razorpay_flutter_profile-1.0.aar",
+          "url": "razorpay_flutter_profile-1.0.aar",
+          "size": 9171,
+          "sha512": "9b658b651e900e0c3b740da3444167c61870728fc763a9509d6731396cf4e89c1cb6acacb4df031898154812e26165a71209eebbb38bae6055874b2421a71f69",
+          "sha256": "cde029a875ed84a2e8ff6511cdd03dd2d0e70abda167e579f38fb02f543d4dae",
+          "sha1": "5ac01f2e1b1b1cfb06d645ac9243213ae2f0d6ab",
+          "md5": "84c3130c80d3df4cef8396602668f7ff"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb"
+          }
+        },
+        {
+          "group": "com.razorpay",
+          "module": "checkout",
+          "version": {
+            "requires": "1.6.+"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "razorpay_flutter_profile-1.0.aar",
+          "url": "razorpay_flutter_profile-1.0.aar",
+          "size": 9171,
+          "sha512": "9b658b651e900e0c3b740da3444167c61870728fc763a9509d6731396cf4e89c1cb6acacb4df031898154812e26165a71209eebbb38bae6055874b2421a71f69",
+          "sha256": "cde029a875ed84a2e8ff6511cdd03dd2d0e70abda167e579f38fb02f543d4dae",
+          "sha1": "5ac01f2e1b1b1cfb06d645ac9243213ae2f0d6ab",
+          "md5": "84c3130c80d3df4cef8396602668f7ff"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "razorpay_flutter_profile-1.0-sources.jar",
+          "url": "razorpay_flutter_profile-1.0-sources.jar",
+          "size": 4160,
+          "sha512": "742715812252acab4ffc8f97cc8ed7ec5d8f61580d04ef28064010f9d90e417578d11988251f1c8a33a8f5bebf249cbc6160589e1b8374f72189a78940766d0f",
+          "sha256": "8e2aa8604dc53f4517d664208ca576e2182ba23064574661e6a1adb2c4df16f0",
+          "sha1": "2c4b2ef05b5aa881388d0a79727d5744959fe528",
+          "md5": "9f4cf24064308f661070a31a356261cc"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "razorpay_flutter_profile-1.0-javadoc.jar",
+          "url": "razorpay_flutter_profile-1.0-javadoc.jar",
+          "size": 266700,
+          "sha512": "b9108657ce111fe6adc0dbcf97502a77dfe731a9c04be55458db5852f002d3003c470d9af45641abb86045a2af5476114a26563794fffcd48801d896bc522ec1",
+          "sha256": "5274d6e0791d15d7451c7f52d15995c86c6542ef620aa3eed01253b4ad08aabe",
+          "sha1": "e8701c3316a3b06bde4d4d2b5b7fd98941eb2742",
+          "md5": "d808356a1bb6e1ee75687cb57a9894e7"
+        }
+      ]
+    }
+  ]
+}

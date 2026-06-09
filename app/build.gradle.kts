@@ -39,6 +39,11 @@ android {
     buildFeatures {
         compose = true
     }
+    sourceSets {
+        getByName("main") {
+            java.srcDirs("lib/pigeon_generated")
+        }
+    }
 }
 
 dependencies {
